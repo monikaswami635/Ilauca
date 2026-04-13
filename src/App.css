@@ -1,0 +1,10 @@
+@import 'tailwindcss';
+
+.inputStyle {
+  @apply w-full bg-transparent border-2 border-[#131411] px-4 py-3 text-sm 
+  placeholder-gray-600 focus:outline-none focus:border-[#e6b56c];
+}
+
+:root {
+  --primary-clr: #131411;
+}
